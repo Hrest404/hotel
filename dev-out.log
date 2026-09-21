@@ -23,3 +23,10 @@ C:\Users\Administrator\AppData\Local\Temp\opencode\start-dev.ps1:2 знак:1
 
  GET / 200 in 2.8s (next.js: 2.3s, application-code: 482ms)
  GET / 200 in 119ms (next.js: 13ms, application-code: 106ms)
+ GET / 200 in 86ms (next.js: 20ms, application-code: 67ms)
+ GET / 200 in 59ms (next.js: 3ms, application-code: 56ms)
+ GET / 200 in 120ms (next.js: 73ms, application-code: 47ms)
+ POST /api/chat 200 in 20.8s (next.js: 937ms, application-code: 19.8s)
+ POST /api/chat 200 in 21.9s (next.js: 3ms, application-code: 21.9s)
+ POST /api/chat 200 in 16.6s (next.js: 4ms, application-code: 16.6s)
+ POST /api/chat 200 in 15.1s (next.js: 3ms, application-code: 15.1s)

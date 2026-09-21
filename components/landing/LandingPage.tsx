@@ -14,6 +14,7 @@ import { Rooms } from "@/components/landing/Rooms";
 import { Services } from "@/components/landing/Services";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { ChatWidget } from "@/components/chat/ChatWidget";
+import { FeedbackForm } from "@/components/FeedbackForm";
 import { useLandingMotion } from "@/hooks/useLandingMotion";
 
 export function LandingPage() {
@@ -33,6 +34,16 @@ export function LandingPage() {
         <Testimonials />
         <Location />
         <Faq />
+        <section className="faq" id="contact" aria-labelledby="contact-title">
+          <div className="section-head reveal">
+            <p className="eyebrow">Обратная связь</p>
+            <h2 id="contact-title" className="display">Напишите нам</h2>
+            <p className="section-lead">
+              Оставьте вопрос, пожелание или запрос — ответим в течение дня.
+            </p>
+          </div>
+          <FeedbackForm />
+        </section>
         <ClosingCta />
       </main>
       <Footer />
